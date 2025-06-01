@@ -13,7 +13,7 @@ function Page({ children, className, FULL, customYMargin }: Props) {
       {FULL && (
         <section
           className={`min-h-full min-w-full ${
-            customYMargin ? customYMargin : "my-10"
+            customYMargin ? customYMargin : "my-5"
           } ${className}`}
         >
           {children ? children : "This is a Page container. Must have children"}
@@ -21,9 +21,8 @@ function Page({ children, className, FULL, customYMargin }: Props) {
       )}
       {!FULL && (
         <section
-          // className={`min-h-full w-11/12 xl:w-4/5 mx-auto ${
           className={`min-h-full w-11/12 mx-auto  ${
-            customYMargin ? customYMargin : "my-10"
+            customYMargin ? customYMargin : "my-5"
           } ${className}`}
         >
           {children ? children : "This is a Page Container. Must have children"}
