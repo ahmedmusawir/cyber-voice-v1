@@ -71,9 +71,9 @@ const Navbar = () => {
 
       {/* NAVIGATION */}
       <nav className="hidden sm:ml-6 sm:flex flex-grow justify-center items-center">
-        <NavLink href="/shop">Shop</NavLink>
+        <NavLink href="/tts-openai-test-page">Openai TTS-1 Test</NavLink>
+        <NavLink href="/tts-gpt4o-mini-test-page">Gpt4o Mini TTS</NavLink>
         <NavLink href="/text-readers">Text Readers</NavLink>
-        <NavLink href="/customer-dashboard">Customer</NavLink>
         <NavLink href="/demo">Demo</NavLink>
         <NavLink href="/template">Template</NavLink>
       </nav>
