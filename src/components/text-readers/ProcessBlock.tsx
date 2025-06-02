@@ -12,7 +12,7 @@ const ProcessingBlock = () => {
       <div className="px-4 py-5 sm:p-6">
         <h4 className="text-center">Audio Processing</h4>
         <p>
-          Please paste your test above and hit the 'Start Processing' button.
+          Please paste your text above and hit the 'Start Processing' button.
           Once processing is complete, your audio controls will appear on the
           left
         </p>
