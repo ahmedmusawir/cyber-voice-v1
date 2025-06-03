@@ -78,6 +78,8 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+tts-key-cyberize.json
+cyberize-tts-new.json
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

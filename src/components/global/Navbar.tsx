@@ -73,6 +73,7 @@ const Navbar = () => {
       <nav className="hidden sm:ml-6 sm:flex flex-grow justify-center items-center">
         <NavLink href="/tts-openai-test-page">Openai TTS-1 Test</NavLink>
         <NavLink href="/tts-gpt4o-mini-test-page">Gpt4o Mini TTS</NavLink>
+        <NavLink href="/tts-vertex-test-page">Google Vertex TTS</NavLink>
         <NavLink href="/text-readers">Text Readers</NavLink>
         <NavLink href="/demo">Demo</NavLink>
         <NavLink href="/template">Template</NavLink>
